@@ -2,12 +2,9 @@
  * Wifi Network
  * insert here your own network Wifi Credentials 
 */
-/*
+
 const char* ssid     = "Medialab"; // wifi lan
 const char* password = "Mediacollege"; // wifi lan
-*/
-const char* ssid     = "parallax1"; // wifi lan station id
-const char* password = "fb56cdad8e5959adc655938e7a"; // wifi lan password
 
 String server  = "http://schw.hosts1.ma-cloud.nl"; // deployment server
 String path          = "/ma3d3/control.json"; // path to file with control data 
