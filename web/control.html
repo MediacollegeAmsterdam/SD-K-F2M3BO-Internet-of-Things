@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta name="description" content="ESP8286 Node-MCU Remote control">
+	<meta name="author" content="jouw naam @ Mediacollege Amsterdam">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZH Control Panel</title>
+    <style>
+        html{font-family: monospace;font-weight: bold; font-size: 1.5em;}
+        .center{margin: auto;	text-align: center;}
+        input {width: 10em;  height: 3em;}
+        input[type=range] {width: 100%; margin: 13.8px 0; height: 28.4px;
+            }
+        input[type=button]{background-color: LightGray;}
+    </style>
+	<script src = "ajax_callback.js" defer></script>
+	<script src = "control.js" defer></script>
+  </head>
+  <body>
+			<table class = "center">
+				<tr>
+					<td colspan = "2">
+							Duurzaam Huis Control Panel<br><br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="button" id="device1" value="control 1">
+					</td>
+					<td>
+						<value id="value1">---</value>
+					</td>
+				</tr>
+				<tr>
+					<td colspan = "2">
+						<input type="range" id="range1" >
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="button" id="device2" value="control 2">
+					</td>
+					<td>
+						<value id="value2">---</value>
+					</td>
+				</tr>
+				<tr>
+					<td colspan = "2">
+						<input type="range" id="range2" >
+					</td>
+				</tr>
+                <tr>
+					<td>
+						<input type="button" id="device3" value="control 3">
+					</td>
+					<td>
+						<value id="value3">---</value>
+					</td>
+				</tr>
+				<tr>
+					<td colspan = "2">
+						<input type="range" id="range3" >
+					</td>
+				</tr>
+				<tr>
+					<td>Temperature </td>
+					<td id=temperature></td>
+				</tr>
+				<tr>
+					<td>Humidity </td>
+					<td id=humidity></td>
+				</tr>
+				<tr>
+					<td>Heatindex </td>
+					<td id=heatindex></td>
+				</tr>
+	 	</table>
+
+   
+
+  </body>
+</html>
