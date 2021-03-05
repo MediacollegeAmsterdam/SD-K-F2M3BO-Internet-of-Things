@@ -2,4 +2,4 @@
    
    
    
- ![Control panel](/img/pureknob.png)
+ ![Control panel](pureknob/img/pureknob.png)
